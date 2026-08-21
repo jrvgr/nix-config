@@ -1,3 +1,3 @@
-{pkgs, ...}: {
-  home.packages = with pkgs; [keyguard];
+{...}: {
+  # Personal-specific home-manager config
 }
