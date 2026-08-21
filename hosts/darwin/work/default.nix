@@ -7,7 +7,6 @@
 
   environment.systemPackages = with pkgs; [
     pnpm
-    lazygit
     bat
     ripgrep
     github-copilot-cli
@@ -17,7 +16,6 @@
     vscode
     tree-sitter
     ghostty-bin
-    raycast
     spotify
     github-cli
     loopwm
