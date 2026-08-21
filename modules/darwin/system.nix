@@ -6,8 +6,6 @@
     ./defaults/adlib.nix
     ./defaults/calendar.nix
     ./defaults/apple-dock.nix
-    ./defaults/ghostty.nix
-    ./defaults/visual-studio.nix
   ];
 
   system = {

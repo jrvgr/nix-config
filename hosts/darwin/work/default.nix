@@ -13,9 +13,7 @@
     delta
     bitwarden-cli
     bob-nvim
-    vscode
     tree-sitter
-    ghostty-bin
     spotify
     github-cli
     loopwm
