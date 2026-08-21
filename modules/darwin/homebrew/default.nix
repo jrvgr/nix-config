@@ -16,7 +16,6 @@
       "notion-calendar"
       "notion-mail"
       "karabiner-elements"
-      "whatsapp"
       "homerow"
       "thebrowsercompany-dia"
       "orbstack"

@@ -3,5 +3,6 @@
     "android-platform-tools"
     "keyguard"
     "zen"
+    "whatsapp"
   ];
 }
