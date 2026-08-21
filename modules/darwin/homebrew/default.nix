@@ -14,7 +14,6 @@
       "middleclick"
       "helium-browser"
       "notion-calendar"
-      "notion-mail"
       "karabiner-elements"
       "hammerspoon"
       "homerow"
