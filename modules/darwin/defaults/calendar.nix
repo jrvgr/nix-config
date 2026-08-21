@@ -1,4 +1,9 @@
 {...}: {
+  system.defaults.iCal = {
+    CalendarSidebarShown = true;
+    "TimeZone support enabled" = true;
+  };
+
   system.defaults.CustomUserPreferences."com.apple.ical" = {
     privacyPaneHasBeenAcknowledgedVersion = 5;
     "scroll by weeks in week view" = 1;

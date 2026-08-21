@@ -1,4 +1,14 @@
 {...}: {
+  system.defaults.NSGlobalDomain = {
+    AppleKeyboardUIMode = 2;
+    AppleInterfaceStyleSwitchesAutomatically = true;
+    AppleShowAllFiles = true;
+    InitialKeyRepeat = 15;
+    KeyRepeat = 2;
+    NSDocumentSaveNewDocumentsToCloud = false;
+    NSTableViewDefaultSizeMode = 2;
+  };
+
   system.defaults.CustomUserPreferences.NSGlobalDomain = {
     AppleAquaColorVariant = 1;
     AppleAccentColor = 0;
