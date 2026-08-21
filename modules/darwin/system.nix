@@ -55,6 +55,19 @@
         "com.microsoft.visual-studio" = {
           ApplePressAndHoldEnabled = 0;
         };
+        "com.raycast.macos" = {
+          # Hotkey/shortcut config (incl. Hyper Key) lives in Raycast v2's
+          # encrypted local store (~/Library/Application Support/com.raycast.macos/raycast-enc.sqlite),
+          # not in defaults, so it can't be managed here.
+          raycastPreferredWindowMode = "default";
+          raycastWindowPresentationMode = 2;
+          raycastShouldFollowSystemAppearance = true;
+          navigationCommandStyleIdentifierKey = "vim";
+          popToRootTimeout = 30;
+          raycastUI_preferredTextSize = "medium";
+          faviconProvider = "legacy";
+          showGettingStartedLink = false;
+        };
       };
       NSGlobalDomain = {
         AppleKeyboardUIMode = 2;
