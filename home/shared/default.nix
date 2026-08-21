@@ -12,7 +12,7 @@
 
   programs.home-manager.enable = true;
 
-  home.packages = with pkgs; [macshot raycast vscode];
+  home.packages = with pkgs; [macshot raycast];
 
   home.sessionVariables = {
     EDITOR = "nvim";

@@ -39,6 +39,7 @@
             ./modules/darwin/system.nix
             ./modules/darwin/homebrew/default.nix
             ./modules/darwin/apps/ghostty.nix
+            ./modules/darwin/apps/vscode.nix
             ./modules/shared.nix
 
             nix-homebrew.darwinModules.nix-homebrew
