@@ -5,13 +5,14 @@
 }: {
   imports = [
     ./karabiner.nix
+    ./lazygit.nix
   ];
 
   home.stateVersion = "23.05";
 
   programs.home-manager.enable = true;
 
-  home.packages = with pkgs; [];
+  home.packages = with pkgs; [macshot];
 
   home.sessionVariables = {
     EDITOR = "nvim";

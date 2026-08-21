@@ -1,0 +1,132 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      },
+      "enable_lsp_tasks": true
+    }
+  },
+  "agent": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "gpt-5.4",
+      "enable_thinking": true,
+      "effort": "medium"
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "disable_ai": false,
+  "git_panel": {
+    "dock": "right",
+  },
+  "cli_default_open_behavior": "existing_window",
+  "use_system_prompts": false,
+  "use_system_path_prompts": false,
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Colored Zed Icons Theme Dark",
+  },
+  "edit_predictions": {
+    "provider": "copilot",
+  },
+  "session": {
+    "trust_all_worktrees": false,
+  },
+  "outline_panel": {
+    "default_width": 240,
+    "indent_size": 7.5,
+    "dock": "right",
+    "indent_guides": {
+      "show": "never",
+    },
+  },
+  "collaboration_panel": {
+    "dock": "right",
+    "button": false,
+    "default_width": 0,
+  },
+  "show_edit_predictions": true,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "theme": {
+    "dark": "Teide Dark",
+    "light": "One Light",
+    "mode": "dark",
+  },
+  "extend_comment_on_newline": false,
+  "confirm_quit": true,
+  "git": {
+    "git_gutter": "tracked_files",
+  },
+  "soft_wrap": "prefer_line",
+  "base_keymap": "VSCode",
+  "relative_line_numbers": "enabled",
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 14,
+  "ensure_final_newline_on_save": true,
+  "gutter": {
+    "code_actions": true,
+    "line_numbers": true,
+    "folds": false,
+  },
+  "message_editor": {
+    "auto_replace_emoji_shortcode": false,
+  },
+  "task": {
+    "show_status_indicator": true,
+  },
+  "journal": {
+    "hour_format": "hour24",
+  },
+  "project_panel": {
+    "dock": "right",
+    "indent_size": 7.5,
+    "default_width": 230,
+    "indent_guides": {
+      "show": "never",
+    },
+  },
+  "terminal": {
+    "shell": {
+      "program": "fish",
+    },
+    "dock": "bottom",
+    "option_as_meta": true,
+    "alternate_scroll": "on",
+    "font_family": "VictorMono Nerd Font",
+  },
+  "line_indicator_format": "long",
+  "vim": {
+    "use_system_clipboard": "never",
+    "toggle_relative_line_numbers": true,
+    "highlight_on_yank_duration": 300,
+    "use_smartcase_find": true,
+  },
+  "tab_size": 2,
+  "show_wrap_guides": false,
+  "scroll_beyond_last_line": "off",
+  "vertical_scroll_margin": 6,
+}

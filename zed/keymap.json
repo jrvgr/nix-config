@@ -1,0 +1,48 @@
+[
+  {
+    "context": "(Picker > Editor) || Picker || menu",
+    "bindings": {
+      "ctrl-j": "menu::SelectNext",
+      "ctrl-k": "menu::SelectPrevious",
+      "ctrl-q": "tab_switcher::CloseSelectedItem",
+    },
+  },
+  {
+    "context": "FileFinder > Picker > Editor",
+    "bindings": {
+      "ctrl-l": "pane::SplitRight",
+      "ctrl-h": "pane::SplitLeft",
+    },
+  },
+  {
+    "context": "vim_mode == normal && (Editor && !Picker)",
+    "bindings": {
+      "ctrl-h": null,
+      "shift shift": "file_finder::Toggle",
+      "space j": "workspace::ToggleBottomDock",
+      "ctrl-f": "editor::Format",
+      "g r": "editor::FindAllReferences",
+      "`": [
+        "workspace::SendKeystrokes",
+        ": vim:changecase enter : vim:left enter",
+      ],
+      "f4": "editor::ToggleCodeActions",
+      "j": ["vim::Down", { "display_lines": true }],
+      "k": ["vim::Up", { "display_lines": true }],
+      "x": ["workspace::SendKeystrokes", "\"_x"],
+      ";": ["workspace::SendKeystrokes", ": vim:search enter escape"],
+      "shift-u": "editor::Redo",
+      "tab tab": "tab_switcher::Toggle",
+      "-": ["task::Spawn", { "task_name": "Oil", "reveal_target": "center" }],
+    },
+  },
+  {
+    // "context": "(Dock || Terminal || Editor && !FileFinder) ",
+    // "bindings": {
+    //   "ctrl-h": "workspace::ActivatePaneLeft",
+    //   "ctrl-l": "workspace::ActivatePaneRight",
+    //   "ctrl-k": "workspace::ActivatePaneUp",
+    //   "ctrl-j": "workspace::ActivatePaneDown"
+    // }
+  },
+]
