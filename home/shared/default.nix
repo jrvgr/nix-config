@@ -5,6 +5,7 @@
 }: {
   imports = [
     ./karabiner.nix
+    ./hammerspoon.nix
     ./lazygit.nix
   ];
 

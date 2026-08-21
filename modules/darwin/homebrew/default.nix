@@ -16,6 +16,7 @@
       "notion-calendar"
       "notion-mail"
       "karabiner-elements"
+      "hammerspoon"
       "homerow"
       "thebrowsercompany-dia"
       "orbstack"

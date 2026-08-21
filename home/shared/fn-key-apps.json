@@ -1,0 +1,4 @@
+[
+  { "name": "Ghostty", "bundleId": "com.mitchellh.ghostty" },
+  { "name": "Visual Studio Code", "bundleId": "com.microsoft.VSCode" }
+]
