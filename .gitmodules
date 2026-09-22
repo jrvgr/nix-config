@@ -1,3 +1,6 @@
 [submodule "nvim"]
 	path = nvim
 	url = git@github.com:jrvgr/nvim-config.git
+[submodule "hosts/nixos/nixbook/firmware"]
+	path = hosts/nixos/nixbook/firmware
+	url = git@github.com:jrvgr/nixbook-firmware.git
